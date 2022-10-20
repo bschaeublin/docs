@@ -177,6 +177,14 @@ Use the NuGet package identifier to install a template package.
 dotnet new --install <NUGET_PACKAGE_ID>
 ```
 
+### To install a template package from a custom NuGet source
+
+Provide a nuget source to install a template package from a custom NuGet source.
+
+```dotnetcli
+dotnet new --install <NUGET_PACKAGE_ID> --nuget-source <SOURCE>
+```
+
 ### To install a template package from a local nupkg file
 
 Provide the path to a *.nupkg* NuGet package file.
